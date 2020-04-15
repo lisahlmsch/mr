@@ -2,10 +2,13 @@
 % Please edit documentation in R/hello.R
 \name{forint}
 \alias{forint}
-\title{Function to format value to Forint currency}
+\title{Formatter function for Hungarian Forint}
 \usage{
 forint(x)
 }
+\arguments{
+\item{x}{numer}
+}
 \description{
-Function to format value to Forint currency
+Formatter function for Hungarian Forint
 }
