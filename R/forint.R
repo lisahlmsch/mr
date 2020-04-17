@@ -16,8 +16,12 @@ get_bitcoin_price <- function(retried = 0) {
 
 #' Formatter function for Hungarian Forint
 #' @param x numer
+#' @return string
 #' @export
 #' @importFrom scales dollar
+#' @examples
+#' forint(100000)
+#' forint(10.3232432)
 forint <- function(x) {
-  dollar(x, prefix = '', suffix = 'Ft')
+  dollar(x, prefix = '', suffix = 'HUF')
 }
