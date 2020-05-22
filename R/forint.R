@@ -8,5 +8,5 @@
 #' forint(100000)
 #' forint(10.3232432)
 forint <- function(x) {
-  dollar(x, prefix = '', suffix = 'HUF')
+  dollar(x, prefix = '', suffix = ' HUF')
 }
